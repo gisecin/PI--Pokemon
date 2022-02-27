@@ -1,0 +1,27 @@
+.create,
+.go {
+    width: 240px;
+    height: 35px;
+    color: #495057;
+    padding: 0 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 18px 0 0 18px;
+    /* border: 2px solid #cbeb40; */
+    /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1); */
+    /* background: #495057; */
+    background: #fff;
+    /* opacity: 0.5; */
+}
+
+.go {
+    width: 50px;
+    border-radius: 0 18px 18px 0;
+    cursor: pointer;
+    opacity: 0.8;
+}

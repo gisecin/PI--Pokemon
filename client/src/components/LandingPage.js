@@ -1,18 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './LandingPage.module.css';
+// import bg from '../assets/bg.jpg';
 
-
-export default function LandingPage(){
-return(
-<div>
-<h1>Bienvenidos a mi Super Pagina</h1>
-<Link to='/home'>
-<button>Ingresar</button>
-
-</Link>
-
-</div>
-
-)
-
+export default function LandingPage () {
+    return (
+        <div className={styles.landing}>
+            <div className={styles.content}>
+            <h1>Welcome to the Pokemon jungle!</h1>
+            <Link to='/home' >
+                <button className={styles.enter}>ENTER</button>
+            </Link>
+            </div>
+        </div>
+    )
 }

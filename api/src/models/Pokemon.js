@@ -27,11 +27,6 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
 
-    strength:{
-      type: DataTypes.INTEGER,
-      allowNull:false,
-    },
-
     defense:{
       type: DataTypes.INTEGER,
       allowNull:false,
@@ -48,7 +43,7 @@ module.exports = (sequelize) => {
       type:DataTypes.INTEGER,
       allowNull:false
     },
-    img:{
+    image:{
       type:DataTypes.STRING,
       allowNull:false,
     }
